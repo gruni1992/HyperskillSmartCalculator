@@ -80,6 +80,9 @@ files:
         }
     }
   learner_created: false
+- name: src/calculator/Calculator.java
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/42/stages/225/implement
-status: Unchecked
+status: Solved
 record: -1
