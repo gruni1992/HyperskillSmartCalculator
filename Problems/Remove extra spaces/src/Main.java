@@ -7,5 +7,6 @@ class RemoveExtraSpacesProblem {
         String text = scanner.nextLine();
 
         // write your code here
+        System.out.println(text.replaceAll("\\s+", " "));
     }
 }

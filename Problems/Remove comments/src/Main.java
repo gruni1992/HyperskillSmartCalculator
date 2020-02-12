@@ -7,5 +7,7 @@ public class Main {
         String codeWithComments = scanner.nextLine();
 
         // write your code here
+        String s = codeWithComments.replaceAll("/\\*.*?\\*/|\\/\\/.*", "");
+        System.out.println(s);
     }
 }

@@ -7,5 +7,6 @@ public class Main {
         String stringWithHTMLTags = scanner.nextLine();
 
         // write your code here
+        System.out.println(stringWithHTMLTags.replaceAll("<.*?>", ""));
     }
 }
